@@ -19,7 +19,7 @@ public class Leghorn extends Huhn {
 
         if (geschlecht == 'm' && eier != 0) {
             setEier(0.0);
-            System.out.println("Dein Hahn names " + name + " kann keine Eier legen, da er männlich ist.");
+            System.out.println("Dein Hahn names " + name + " kann keine Eier legen, da es männlich ist.");
         }
 
         if (name == "Leo  "){
