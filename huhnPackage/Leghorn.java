@@ -25,5 +25,6 @@ public class Leghorn extends Huhn {
         if (name == "Leo  "){
             setFluegel(1);
         }
+
     }
 }

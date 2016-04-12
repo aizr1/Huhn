@@ -10,24 +10,31 @@ import static java.lang.System.out;
 public class Main {
 
     public static void main(String[] args) {
+        Huhn.suppenmethode(0.5); //
+
         Leghorn leo = new Leghorn("Leo  ",0.9,1.9,'m');
         out.println("NAME: " + leo.getName() + " "
                 + "EIER: " +  leo.getEier() + " "
                 + "GEWICHT: " + leo.getGewicht() + " "
                 + "FLÜGEL: " + leo.getFluegel() + " "
-                + "GESCHLECHT: " + leo.getGeschlecht());
+                + "GESCHLECHT: " + leo.getGeschlecht() + " "
+                + "SCHLACHTBANK?! " + leo.isSuppenhuhn());
 
         Leghorn lisa = new Leghorn("Lisa ",0.7,1.8,'w');
         out.println("NAME: " + lisa.getName() + " "
                 + "EIER: " +  lisa.getEier() + " "
                 + "GEWICHT: " + lisa.getGewicht() + " "
-                + "GESCHLECHT: " + lisa.getGeschlecht());
+                + "FLÜGEL: " + lisa.getFluegel() + " "
+                + "GESCHLECHT: " + lisa.getGeschlecht() + " "
+                + "SCHLACHTBANK?! " + lisa.isSuppenhuhn());
 
         Leghorn lola = new Leghorn("Lola ",0.9,1.4,'w');
         out.println("NAME: " + lola.getName() + " "
                 + "EIER: " +  lola.getEier() + " "
                 + "GEWICHT: " + lola.getGewicht() + " "
-                + "GESCHLECHT: " + lola.getGeschlecht());
+                + "FLÜGEL: " + lola.getFluegel() + " "
+                + "GESCHLECHT: " + lola.getGeschlecht() + " "
+                + "SCHLACHTBANK?! " + lola.isSuppenhuhn());
 
         Perlhuhn pia = new Perlhuhn("Pia  ",1.2, 'w');
         out.println("NAME: " + pia.getName() + " "
