@@ -10,7 +10,8 @@ import static java.lang.System.out;
 public class Main {
 
     public static void main(String[] args) {
-        Huhn.suppenmethode(0.5); //
+
+        Huhn.suppenmethode(1.0); //Setze "limit" 0.5 (für die Schlachtung)
 
         Leghorn leo = new Leghorn("Leo  ",0.9,1.9,'m');
         out.println("NAME: " + leo.getName() + " "
@@ -40,20 +41,22 @@ public class Main {
         out.println("NAME: " + pia.getName() + " "
                 + "EIER: " +  pia.getEier() + " "
                 + "GEWICHT: " + pia.getGewicht() + " "
-                + "GESCHLECHT: " + pia.getGeschlecht());
+                + "GESCHLECHT: " + pia.getGeschlecht() + " "
+                + "SCHLACHTBANK?! " + lola.isSuppenhuhn());
 
 
         Perlhuhn paula = new Perlhuhn("Paula",0.3, 'w');
         out.println("NAME: " + paula.getName() + " "
                 + "EIER: " +  paula.getEier() + " "
                 + "GEWICHT: " + paula.getGewicht() + " "
-                + "GESCHLECHT: " + paula.getGeschlecht());
+                + "GESCHLECHT: " + paula.getGeschlecht() + " "
+                + "SCHLACHTBANK?! " + paula.isSuppenhuhn());
 
         Perlhuhn paul = new Perlhuhn("Paul ",0.0, 'm');
         out.println("NAME: " + paul.getName() + " "
                 + "EIER: " +  paul.getEier() + " "
                 + "GEWICHT: " + paul.getGewicht() + " "
-                + "GESCHLECHT: " + paul.getGeschlecht());
-
+                + "GESCHLECHT: " + paul.getGeschlecht()+ " "
+                + "SCHLACHTBANK?! " + paul.isSuppenhuhn());
     }
 }

@@ -65,7 +65,7 @@ public class Huhn {
     }
 
     public static void suppenmethode(double limit) {
-        if (eier/gewicht < limit){
+        if ((eier/gewicht) <= limit){
             setSuppenhuhn(true);
         } else {
             setSuppenhuhn(false);
