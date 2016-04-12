@@ -14,6 +14,7 @@ public class Main {
         out.println("NAME: " + leo.getName() + " "
                 + "EIER: " +  leo.getEier() + " "
                 + "GEWICHT: " + leo.getGewicht() + " "
+                + "FLÜGEL: " + leo.getFluegel() + " "
                 + "GESCHLECHT: " + leo.getGeschlecht());
 
         Leghorn lisa = new Leghorn("Lisa ",0.7,1.8,'w');

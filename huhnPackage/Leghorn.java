@@ -14,12 +14,16 @@ public class Leghorn extends Huhn {
 
         if (geschlecht == 'm' && gewicht < 1.3) {
             setGewicht(1.5);
-            System.out.println("Dein Huhn names " + name + " ist fehlerhaft. Es ist leider ein zu leichter Hahn. Geh sterben");
+            System.out.println("Dein Huhn names " + name + " ist leider ein zu leichter Hahn. ");
         }
 
         if (geschlecht == 'm' && eier != 0) {
             setEier(0.0);
-            System.out.println("Dein Huhn names " + name + " ist fehlerhaft. Es ist leider ein Hahn. Hähne können nicht legen.");
+            System.out.println("Dein Hahn names " + name + " kann keine Eier legen, da er männlich ist.");
+        }
+
+        if (name == "Leo  "){
+            setFluegel(1);
         }
     }
 }

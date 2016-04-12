@@ -26,8 +26,11 @@ public class Huhn {
     }
 
     public static void setFluegel(int fluegel) {
-        Huhn.fluegel = fluegel;
-    }
+        //if (Huhn.name == "Leo  "){
+        //    Huhn.fluegel = 1;
+        //} else {
+            Huhn.fluegel = fluegel;
+        }
 
     public static double getEier() {
         return eier;
