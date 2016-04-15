@@ -57,6 +57,7 @@ public class Huhn {
     }
 
     public static boolean isSuppenhuhn() {
+        suppenmethode(0.5);
         return suppenhuhn;
     }
 
@@ -65,7 +66,8 @@ public class Huhn {
     }
 
     public static void suppenmethode(double limit) {
-        if ((eier/gewicht) <= limit){
+
+        if ((eier/gewicht) < limit /*&& geschlecht == 'm'*/){
             setSuppenhuhn(true);
         } else {
             setSuppenhuhn(false);

@@ -11,15 +11,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Huhn.suppenmethode(1.0); //Setze "limit" 0.5 (für die Schlachtung)
-
         Leghorn leo = new Leghorn("Leo  ",0.9,1.9,'m');
         out.println("NAME: " + leo.getName() + " "
                 + "EIER: " +  leo.getEier() + " "
                 + "GEWICHT: " + leo.getGewicht() + " "
                 + "FLÜGEL: " + leo.getFluegel() + " "
                 + "GESCHLECHT: " + leo.getGeschlecht() + " "
-                + "SCHLACHTBANK?! " + leo.isSuppenhuhn());
+                + "SCHLACHTVIEH?: " + leo.isSuppenhuhn());
 
         Leghorn lisa = new Leghorn("Lisa ",0.7,1.8,'w');
         out.println("NAME: " + lisa.getName() + " "
@@ -27,7 +25,7 @@ public class Main {
                 + "GEWICHT: " + lisa.getGewicht() + " "
                 + "FLÜGEL: " + lisa.getFluegel() + " "
                 + "GESCHLECHT: " + lisa.getGeschlecht() + " "
-                + "SCHLACHTBANK?! " + lisa.isSuppenhuhn());
+                + "SCHLACHTVIEH?: " + lisa.isSuppenhuhn());
 
         Leghorn lola = new Leghorn("Lola ",0.9,1.4,'w');
         out.println("NAME: " + lola.getName() + " "
@@ -35,14 +33,14 @@ public class Main {
                 + "GEWICHT: " + lola.getGewicht() + " "
                 + "FLÜGEL: " + lola.getFluegel() + " "
                 + "GESCHLECHT: " + lola.getGeschlecht() + " "
-                + "SCHLACHTBANK?! " + lola.isSuppenhuhn());
+                + "SCHLACHTVIEH?: " + lola.isSuppenhuhn());
 
         Perlhuhn pia = new Perlhuhn("Pia  ",1.2, 'w');
         out.println("NAME: " + pia.getName() + " "
                 + "EIER: " +  pia.getEier() + " "
                 + "GEWICHT: " + pia.getGewicht() + " "
                 + "GESCHLECHT: " + pia.getGeschlecht() + " "
-                + "SCHLACHTBANK?! " + lola.isSuppenhuhn());
+                + "SCHLACHTVIEH?: " + lola.isSuppenhuhn());
 
 
         Perlhuhn paula = new Perlhuhn("Paula",0.3, 'w');
@@ -50,13 +48,13 @@ public class Main {
                 + "EIER: " +  paula.getEier() + " "
                 + "GEWICHT: " + paula.getGewicht() + " "
                 + "GESCHLECHT: " + paula.getGeschlecht() + " "
-                + "SCHLACHTBANK?! " + paula.isSuppenhuhn());
+                + "SCHLACHTVIEH?:  " + paula.isSuppenhuhn());
 
         Perlhuhn paul = new Perlhuhn("Paul ",0.0, 'm');
         out.println("NAME: " + paul.getName() + " "
                 + "EIER: " +  paul.getEier() + " "
                 + "GEWICHT: " + paul.getGewicht() + " "
                 + "GESCHLECHT: " + paul.getGeschlecht()+ " "
-                + "SCHLACHTBANK?! " + paul.isSuppenhuhn());
+                + "SCHLACHTVIEH?:  " + paul.isSuppenhuhn());
     }
 }
